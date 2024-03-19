@@ -1,5 +1,5 @@
 # sampah
-[banksampah]
+[banksampah]('https://github.com/adipramanadev/sampah/blob/main/output.png')
 A new Flutter project.
 
 ## Getting Started
