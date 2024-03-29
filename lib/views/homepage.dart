@@ -1,5 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
+import 'package:sampah/views/histori.dart';
+import 'package:sampah/views/jenissampah.dart';
+import 'package:sampah/views/withdrawpage.dart';
 import 'setorSampah.dart';
 
 class DashboardScreen extends StatelessWidget {
@@ -77,6 +80,7 @@ class DashboardScreen extends StatelessWidget {
       child: InkWell(
         onTap: () {
           //kehalaman
+          Get.to(WithdrawPage());
         },
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
@@ -101,6 +105,7 @@ class DashboardScreen extends StatelessWidget {
       child: InkWell(
         onTap: () {
           //kehalaman
+          Get.to(DepositHistoryPage());
         },
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
@@ -125,6 +130,7 @@ class DashboardScreen extends StatelessWidget {
       child: InkWell(
         onTap: () {
           //kehalaman
+          Get.to(WasteTypePage());
         },
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
